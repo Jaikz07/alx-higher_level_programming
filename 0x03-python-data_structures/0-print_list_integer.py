@@ -1,7 +1,12 @@
 #!/usr/bin/python3
 
-def print_list_integer(my_list=[]):
-    """prints all integer of a list"""
+# 0-print_list_integer.py
 
-    for i in my_list:
-        print(str.format("{}", i))
+
+def print_list_integer(my_list=[]):
+
+    """Print all integers of a list."""
+
+    for i in range(len(my_list)):
+
+        print("{:d}".format(my_list[i]))
